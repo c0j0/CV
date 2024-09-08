@@ -134,9 +134,9 @@ export default function AlvaroCVWebsite() {
                   ))}
                 </div>
                 <div className="flex justify-between text-sm text-gray-500 mt-2">
-                  <span>&quot;Jul 2022&quot;</span>
-                  <span>&quot;Jul 2023&quot;</span>
-                  <span>&quot;Jul 2024&quot;</span>
+                  <span>;Jul 2022;</span>
+                  <span>;Jul 2023;</span>
+                  <span>;Jul 2024;</span>
                 </div>
                 <Accordion type="single" collapsible className="w-full mt-3">
                   {experiences.map((exp, index) => (
@@ -150,9 +150,9 @@ export default function AlvaroCVWebsite() {
                           {exp.startDate.toLocaleDateString()} - {exp.endDate.toLocaleDateString()}
                         </p>
                         <ul className="list-disc list-inside space-y-2 text-base">
-                          <li>&quot;Responsabilidad 1&quot;</li>
-                          <li>&quot;Responsabilidad 2&quot;</li>
-                          <li>&quot;Responsabilidad 3&quot;</li>
+                          <li>;Responsabilidad 1;</li>
+                          <li>;Responsabilidad 2;</li>
+                          <li>;Responsabilidad 3;</li>
                         </ul>
                       </AccordionContent>
                     </AccordionItem>
@@ -169,18 +169,18 @@ export default function AlvaroCVWebsite() {
                     <CardHeader className="py-3">
                       <CardTitle className="text-lg flex items-center">
                         <Sun className="mr-3 h-5 w-5 text-yellow-500" />
-                        PSFV &quot;LA TEJERA&quot;
+                        PSFV LA TEJERA
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="py-3">
                       <p className="text-base mb-3">Proyecto de Planta Solar Fotovoltaica de 50 MW en Extremadura</p>
                       <ul className="list-disc list-inside space-y-2 text-base mb-3">
-                        <li>&quot;Diseño y optimización del layout con más de 100.000 módulos fotovoltaicos bifaciales de alta eficiencia&quot;</li>
-                        <li>&quot;Simulación avanzada de producción energética utilizando PVsyst, logrando un rendimiento específico de 1900 kWh/kWp/año&quot;</li>
-                        <li>&quot;Análisis detallado de sombras y pérdidas del sistema para maximizar la captación solar&quot;</li>
-                        <li>&quot;Diseño del sistema de seguimiento solar de un eje para aumentar la producción en un 25%&quot;</li>
-                        <li>&quot;Estudio de viabilidad económica con un TIR proyectado del 12% y un período de retorno de 7 años&quot;</li>
-                        <li>&quot;Plan de mitigación de impacto ambiental, incluyendo medidas de protección de la fauna local&quot;</li>
+                        <li>Diseño y optimización del layout con más de 100.000 módulos fotovoltaicos bifaciales de alta eficiencia</li>
+                        <li>Simulación avanzada de producción energética utilizando PVsyst, logrando un rendimiento específico de 1900 kWh/kWp/año</li>
+                        <li>Análisis detallado de sombras y pérdidas del sistema para maximizar la captación solar</li>
+                        <li>Diseño del sistema de seguimiento solar de un eje para aumentar la producción en un 25%</li>
+                        <li>Estudio de viabilidad económica con un TIR proyectado del 12% y un período de retorno de 7 años</li>
+                        <li>Plan de mitigación de impacto ambiental, incluyendo medidas de protección de la fauna local</li>
                       </ul>
                       <Button variant="outline" size="lg" className="w-full text-green-600 border-green-600 hover:bg-green-50 text-base">
                         <DownloadIcon className="mr-2 h-5 w-5" /> Descargar Proyecto
@@ -191,18 +191,18 @@ export default function AlvaroCVWebsite() {
                     <CardHeader className="py-3">
                       <CardTitle className="text-lg flex items-center">
                         <Zap className="mr-3 h-5 w-5 text-blue-500" />
-                        &quot;Instalaciones para generación de Hidrógeno Renovable&quot;
+                        Instalaciones para generación de Hidrógeno Renovable
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="py-3">
                       <p className="text-base mb-3">Proyecto de generación de 411tM/año de hidrógeno renovable en Puertollano</p>
                       <ul className="list-disc list-inside space-y-2 text-base mb-3">
-                        <li>&quot;Diseño de un sistema de electrólisis PEM de 20 MW con una eficiencia del 70%&quot;</li>
-                        <li>&quot;Integración con una planta fotovoltaica dedicada de 100 MW para garantizar el suministro 100% renovable&quot;</li>
-                        <li>&quot;Implementación de un sistema de compresión y almacenamiento de hidrógeno a 700 bar&quot;</li>
-                        <li>&quot;Desarrollo de un sistema de control avanzado para optimizar la producción según la disponibilidad de energía renovable&quot;</li>
-                        <li>&quot;Diseño de una estación de repostaje de hidrógeno para vehículos pesados con capacidad de 1000 kg/día&quot;</li>
-                        <li>&quot;Análisis del ciclo de vida y cálculo de la reducción de emisiones de CO2 (estimada en 20.000 tCO2eq/año)&quot;</li>
+                        <li>Diseño de un sistema de electrólisis PEM de 20 MW con una eficiencia del 70%</li>
+                        <li>Integración con una planta fotovoltaica dedicada de 100 MW para garantizar el suministro 100% renovable</li>
+                        <li>Implementación de un sistema de compresión y almacenamiento de hidrógeno a 700 bar</li>
+                        <li>Desarrollo de un sistema de control avanzado para optimizar la producción según la disponibilidad de energía renovable</li>
+                        <li>Diseño de una estación de repostaje de hidrógeno para vehículos pesados con capacidad de 1000 kg/día</li>
+                        <li>Análisis del ciclo de vida y cálculo de la reducción de emisiones de CO2 (estimada en 20.000 tCO2eq/año)</li>
                       </ul>
                       <Button variant="outline" size="lg" className="w-full text-blue-600 border-blue-600 hover:bg-blue-50 text-base">
                         <DownloadIcon className="mr-2 h-5 w-5" /> Descargar Proyecto
@@ -223,13 +223,13 @@ export default function AlvaroCVWebsite() {
                   <CardContent className="py-3">
                     <p className="text-base mb-3">Proyecto de diseño e implementación de un sistema de almacenamiento de energía de 100 MWh para una red eléctrica insular</p>
                     <ul className="list-disc list-inside space-y-2 text-base">
-                      <li>&quot;Evaluación comparativa de tecnologías de baterías: Li-ion, flujo redox de vanadio y baterías de sodio-azufre&quot;</li>
-                      <li>&quot;Diseño del sistema de conversión de potencia (PCS) de 50 MW con inversores bidireccionales de última generación&quot;</li>
-                      <li>&quot;Desarrollo de algoritmos de gestión energética para optimizar el arbitraje y los servicios de red&quot;</li>
-                      <li>&quot;Integración con sistemas de energía renovable existentes (eólica y solar) para maximizar el aprovechamiento&quot;</li>
-                      <li>&quot;Estudio de la reducción de costes operativos y mejora de la estabilidad de la red insular&quot;</li>
-                      <li>&quot;Análisis de viabilidad económica considerando múltiples flujos de ingresos y esquemas de incentivos&quot;</li>
-                      <li>&quot;Diseño de un sistema de refrigeración innovador para optimizar la vida útil de las baterías en clima cálido&quot;</li>
+                      <li>Evaluación comparativa de tecnologías de baterías: Li-ion, flujo redox de vanadio y baterías de sodio-azufre</li>
+                      <li>Diseño del sistema de conversión de potencia (PCS) de 50 MW con inversores bidireccionales de última generación</li>
+                      <li>Desarrollo de algoritmos de gestión energética para optimizar el arbitraje y los servicios de red</li>
+                      <li>Integración con sistemas de energía renovable existentes (eólica y solar) para maximizar el aprovechamiento</li>
+                      <li>Estudio de la reducción de costes operativos y mejora de la estabilidad de la red insular</li>
+                      <li>Análisis de viabilidad económica considerando múltiples flujos de ingresos y esquemas de incentivos</li>
+                      <li>Diseño de un sistema de refrigeración innovador para optimizar la vida útil de las baterías en clima cálido</li>
                     </ul>
                   </CardContent>
                 </Card>
