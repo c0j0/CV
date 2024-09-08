@@ -20,12 +20,12 @@ export default function AlvaroCVWebsite() {
       endDate: new Date("2024-07-31"), 
       color: "bg-green-500" 
     },
-    { 
-      company: "Ecointegral Ingeniería", 
-      role: "Prácticas Departamento O&D", 
-      startDate: new Date("2023-08-01"), 
-      endDate: new Date("2023-08-31"), 
-      color: "bg-blue-500" 
+    {
+      company: "Ecointegral Ingeniería",
+      role: "Departamento OyD",
+      startDate: new Date("2023-08-01"),
+      endDate: new Date("2023-08-31"),
+      color: "bg-blue-500"
     },
     { 
       company: "Magtel", 
@@ -169,7 +169,7 @@ export default function AlvaroCVWebsite() {
                     <CardHeader className="py-3">
                       <CardTitle className="text-lg flex items-center">
                         <Sun className="mr-3 h-5 w-5 text-yellow-500" />
-                        PSFV LA TEJERA
+                        PSFV &quot;LA TEJERA&quot;
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="py-3">
@@ -334,7 +334,7 @@ export default function AlvaroCVWebsite() {
                           </CardTitle>
                         </CardHeader>
                         <CardContent className="py-3">
-                          <p className="text-base mb-3">"Proyecto de ejecución de instalación eléctrica de una planta de generación de hidrógeno mediante energía fotovoltaica vinculada a una planta de repostaje de vehículos de hidrógeno"</p>
+                          <p className="text-base mb-3">&quot;Proyecto de ejecución de instalación eléctrica de una planta de generación de hidrógeno mediante energía fotovoltaica vinculada a una planta de repostaje de vehículos de hidrógeno&quot;</p>
                           <Button variant="outline" size="lg" className="w-full text-green-600 border-green-600 hover:bg-green-100 text-base">
                             <DownloadIcon className="mr-2 h-5 w-5" /> Descargar TFG
                           </Button>
