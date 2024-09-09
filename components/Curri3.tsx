@@ -1,12 +1,11 @@
 'use client'
-/* eslint-disable react/no-unescaped-entities */
+
 import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import  Image  from 'next/image'
 import { BriefcaseIcon, GraduationCapIcon, UserIcon, CodeIcon, PhoneIcon, MailIcon, HomeIcon, GlobeIcon, LinkedinIcon, DownloadIcon, AwardIcon, BookOpenIcon, LightbulbIcon, Zap, Wind, Sun, Battery, CheckCircle2, FolderIcon, MonitorIcon, PenToolIcon, WrenchIcon } from 'lucide-react'
 
 export default function AlvaroCVWebsite() {
@@ -20,12 +19,12 @@ export default function AlvaroCVWebsite() {
       endDate: new Date("2024-07-31"), 
       color: "bg-green-500" 
     },
-    {
-      company: "Ecointegral Ingeniería",
-      role: "Departamento OyD",
-      startDate: new Date("2023-08-01"),
-      endDate: new Date("2023-08-31"),
-      color: "bg-blue-500"
+    { 
+      company: "Ecointegral Ingeniería", 
+      role: "Prácticas Departamento O&amp;D", 
+      startDate: new Date("2023-08-01"), 
+      endDate: new Date("2023-08-31"), 
+      color: "bg-blue-500" 
     },
     { 
       company: "Magtel", 
@@ -56,12 +55,10 @@ export default function AlvaroCVWebsite() {
           <CardContent className="p-0">
             <header className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-6">
               <div className="flex flex-col md:flex-row items-center">
-                <Image 
+                <img 
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7d73OncUrxrd1gBIMlbPbBBb1jpquh.png" 
                   alt="Foto de Álvaro del Cojo Escribano" 
                   className="rounded-full w-40 h-40 object-cover mb-6 md:mb-0 md:mr-8 border-4 border-white shadow-lg transition-transform duration-300 hover:scale-105"
-                  width={160}
-                  height={160}
                 />
                 <div className="text-center md:text-left">
                   <h1 className="text-4xl font-bold mb-3">Álvaro del Cojo Escribano</h1>
@@ -134,9 +131,9 @@ export default function AlvaroCVWebsite() {
                   ))}
                 </div>
                 <div className="flex justify-between text-sm text-gray-500 mt-2">
-                  <span>;Jul 2022;</span>
-                  <span>;Jul 2023;</span>
-                  <span>;Jul 2024;</span>
+                  <span>Jul 2022</span>
+                  <span>Jul 2023</span>
+                  <span>Jul 2024</span>
                 </div>
                 <Accordion type="single" collapsible className="w-full mt-3">
                   {experiences.map((exp, index) => (
@@ -150,9 +147,9 @@ export default function AlvaroCVWebsite() {
                           {exp.startDate.toLocaleDateString()} - {exp.endDate.toLocaleDateString()}
                         </p>
                         <ul className="list-disc list-inside space-y-2 text-base">
-                          <li>;Responsabilidad 1;</li>
-                          <li>;Responsabilidad 2;</li>
-                          <li>;Responsabilidad 3;</li>
+                          <li>Responsabilidad 1</li>
+                          <li>Responsabilidad 2</li>
+                          <li>Responsabilidad 3</li>
                         </ul>
                       </AccordionContent>
                     </AccordionItem>
