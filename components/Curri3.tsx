@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -55,10 +56,12 @@ export default function AlvaroCVWebsite() {
           <CardContent className="p-0">
             <header className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-6">
               <div className="flex flex-col md:flex-row items-center">
-                <img 
+                <Image 
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-7d73OncUrxrd1gBIMlbPbBBb1jpquh.png" 
                   alt="Foto de Álvaro del Cojo Escribano" 
-                  className="rounded-full w-40 h-40 object-cover mb-6 md:mb-0 md:mr-8 border-4 border-white shadow-lg transition-transform duration-300 hover:scale-105"
+                  width={160}
+                  height={160}
+                  className="rounded-full object-cover mb-6 md:mb-0 md:mr-8 border-4 border-white shadow-lg transition-transform duration-300 hover:scale-105"
                 />
                 <div className="text-center md:text-left">
                   <h1 className="text-4xl font-bold mb-3">Álvaro del Cojo Escribano</h1>
